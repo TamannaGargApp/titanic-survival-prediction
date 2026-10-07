@@ -1,0 +1,30 @@
+# Data (Kaggle dataset - download it yourself, see README)
+data/*
+!data/README.md
+*.csv
+*.zip
+
+# Trained models
+models/*
+!models/.gitkeep
+*.joblib
+*.pkl
+
+# Kaggle API key - never commit this!
+kaggle.json
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
